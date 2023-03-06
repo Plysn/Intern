@@ -1,0 +1,208 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+    
+}
+
+html {
+    font-size: 62.5%; /* 100% = 16px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.column {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.column-3 {
+    width: 33.3333%;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+/* Main */
+.content {
+    margin: 0 30px;
+}
+/*About*/
+.about{
+    margin: 50px 0;
+}
+
+.about-header {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.about-description {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.about-list {
+    display: flex;
+    list-style: none;
+    
+}
+
+.about-item {
+    
+}
+
+.about-item-info {
+    list-style: none;
+    background-color: var(--white-color);
+}
+
+.about-item-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-item-name {
+    background-color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+.about-item-description {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+/*Contact*/
+.contact {
+    margin: 50px 0;
+}
+
+.contact-box {
+    margin-top: 20px;
+}
+
+.contact-header {
+    
+}
+
+.contact-info{
+    padding-bottom: 9px;
+}
+
+.contact-input {
+    padding: 9px;
+    border: 1px solid #ccc;
+}
+
+.contact-subject {
+    padding-bottom: 9px ;
+}
+
+
+.contact-message {
+    padding-bottom: 9px ;
+}
+
+.contact-input-other {
+    padding: 9px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-contact {
+    padding: 9px 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(63, 132, 251);
+    color: var(--white-color);
+}
+
+.contact-form-note {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+/*Layout 3*/
+
+.introduce {
+    display: flex;
+}
+
+.introduce-img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.introduce-about {
+    margin: 100px;
+}
+
+.introduce-info {
+
+}
+
+.introduce-header {
+
+}
+
+.introduce-header-icon {
+    margin-top: -33px;
+    color: rgb(63, 132, 251);
+    font-size: 3rem;
+}
+
+.introduce-info-description {
+
+}
+
+.introduce-content {
+
+}
+
+.introduce-content-header {
+
+}
+
+.introduce-content-list {
+    margin: 20px 160px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduce-content-item {
+    display: flex;
+    align-items: center;
+}
+
+.introduce-content-item-icon {
+    padding: 4px;
+    text-align: center;
+    color: rgb(63, 132, 251);
+    font-size: 1.2rem;
+}
+
+.introduce-content-item p {
+    color: var(--text-color);
+}
